@@ -1,0 +1,10 @@
+#IDE
+.idea/
+
+#stylesheet
+*.map
+css/bootstrap.css
+css/style.css
+
+README.txt
+
