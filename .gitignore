@@ -1,10 +1,12 @@
 #IDE
 .idea/
 
+#sass
+.sass-cache/
+css/
+
 #stylesheet
 *.map
 css/bootstrap.css
 css/style.css
-
-README.txt
 
