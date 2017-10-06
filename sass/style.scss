@@ -271,6 +271,10 @@ p {
 #fh5co-home { 
 	min-height: 700px;
 	background: $brand-white url(../images/loader.gif) no-repeat center center;
+	@media screen and (max-width: $screen-sm) {
+		// margin-top: -66px;
+		min-height: 641px;
+	}
 
 	.flexslider {
 		border: none;
@@ -294,13 +298,17 @@ p {
 				margin: 0;
 				padding: 0;
 				font-family: $font-primary;
-				font-size: 300px;
+				font-size: 117px;
 				font-weight: 700;
 				font-style: italic;
 				color: $brand-white;
 				@include transition(.3s);
 				@media screen and (max-width: $screen-md) {
 					font-size: 100px;
+				}
+
+				ul{
+					list-style-type: none;
 				}
 			}
 			h2 {
@@ -405,7 +413,7 @@ p {
 	.fh5co-logo {
 		text-align: center;
 		width: 19.33%;
-		font-size: 40px;
+		font-size: 30px;
 		font-family:  $font-primary;
 		font-weight: 700;
 		font-style: italic;
@@ -531,9 +539,9 @@ p {
 }
 
 #fh5co-sayings {
-	padding: 7em 0;
+	padding: 1px 0;
 	@media screen and (max-width :$screen-sm) {
-		padding: 5em 0;
+		padding: 1px 0;
 	}
 	.flexslider {
 		.slides {
@@ -1036,7 +1044,7 @@ p {
 }
 
 #fh5co-contact {
-	padding: 7em 0;
+	padding: 7em 0 0 0;
 	@media screen and (max-width :$screen-sm) {
 		padding: 5em 0;
 	}
