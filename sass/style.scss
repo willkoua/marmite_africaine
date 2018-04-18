@@ -265,6 +265,21 @@ p {
   }
 }
 
+
+//modification willy
+#program{
+	border: 1px solid white;
+	color: white;
+	width: 100%;
+	border-collapse: collapse;
+	text-align: center;
+
+	thead tr th{
+		text-align: center;
+		height: 50px;
+	}
+
+}
 /*
  * Flexslider
  */
